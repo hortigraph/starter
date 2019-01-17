@@ -4,7 +4,6 @@ category: blog
 published: true
 splash: 'http://placehold.it/1600x500'
 title: Describe plant groups of significance to horticulture
-tags: ''
 ---
 FROM RHS SYLLABUS 
 R2101
