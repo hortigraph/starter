@@ -1,6 +1,7 @@
 ---
 layout: default
 section: blog
+published: true
 ---
 
 <div class='listing col6 pad4h margin3'>
@@ -15,4 +16,11 @@ section: blog
   {% endfor %}
 </div>
 
+<div class='listing col6 pad4h margin3'>
+ {% for problem in site.data.plant-problems limit:10 %}
+    <li>
+        <a href="{{site.baseurl}}{{problem.url}}">{{ problem.title }}</a>
+     </li>
+{% endfor %}
+</div>
 {% include rss-link.html %}
