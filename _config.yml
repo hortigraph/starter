@@ -7,6 +7,9 @@ prose:
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'media'
   metadata:
+  	collections:
+    	plant-problems:
+        	output: true
     _posts:
       - name: "category"
         field:
